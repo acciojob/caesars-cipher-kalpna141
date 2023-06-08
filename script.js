@@ -45,7 +45,7 @@ function rot13(encodedStr) {
 			
 		}
 
-  return; 
+  return decodedArr; 
 }
 abc
 
