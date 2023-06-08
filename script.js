@@ -47,6 +47,6 @@ function rot13(encodedStr) {
 
   return decodedArr; 
 }
-abc
+// abc
 
 window.rot13 = rot13;
