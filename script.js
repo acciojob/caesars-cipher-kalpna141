@@ -38,10 +38,10 @@ function rot13(encodedStr) {
 		{
 			if(lookup[str[i]]==undefined)
 			{
-				decodedArr+= str[i];
+				decodedArr.push(str[i]);
 			}
 			else
-				decodedArr+= lookup[str[i]];
+				decodedArr.push(lookup[str[i]]);
 			
 		}
 
